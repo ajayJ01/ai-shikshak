@@ -297,7 +297,7 @@ function showParsed(p){
   if(p.file_type==='image') h+=`<span class="badge file-img">🖼 Image</span>`;
   if(p.file_type==='pdf')   h+=`<span class="badge file-pdf">📄 PDF</span>`;
   if(p.source==='groq'){
-    h+=`<span class="badge src-groq">⚡ Groq AI</span>`;
+    h+=`<span class="badge src-groq">⚡ Aapka AI</span>`;
     banner.classList.remove('show');
   } else if(p.source==='offline_mode'){
     const reason = p.groq_fail_reason || 'technical';
